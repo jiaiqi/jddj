@@ -1,0 +1,172 @@
+html {
+  font-size: 26.66667vw;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #F2F2F2;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  z-index: 20;
+}
+
+header .a1c {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  right: 40px;
+  top: -5px;
+  padding: 20px 0 20px 20px;
+}
+
+header .a1c .a1d {
+  float: left;
+  margin-right: 12px;
+  width: 22px;
+  height: 22px;
+  background: url(/static/images/icon_er.png) no-repeat;
+  background-size: 22px;
+}
+
+header .a1b {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(/static/images/user_message_icon.png) no-repeat;
+  background-position: center center;
+  background-size: 22px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  padding: 20px 10px 20px 20px;
+}
+
+section .zm {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+section .userData {
+  box-sizing: border-box;
+  width: 3.75rem;
+  padding-top: .24rem;
+  min-height: .9rem;
+  color: #fff;
+  display: flex;
+  height: 1.15rem;
+  background: #fff url(/static/images/userbg.png) center bottom no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+section .userData .avatar {
+  background-size: auto 61px;
+  display: flex;
+  width: 61px;
+  height: 61px;
+  margin: 0 0 0 16px;
+  border-radius: 50px;
+  padding-bottom: 10px;
+}
+
+section .userData .avatar img {
+  width: 61px;
+  height: 61px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+section .userData .nickname {
+  display: flex;
+  padding-left: 10px;
+  flex-direction: column;
+  position: relative;
+  top: 17px;
+  height: 50px;
+  font-size: 13px;
+}
+
+section .userWallet {
+  width: 3.75rem;
+  height: .7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section .userWallet .wallerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+}
+
+section .userWallet .wallerItem:first-child {
+  border-right: 1px solid #555;
+}
+
+section .userWallet .wallerItem .icon-qianbao {
+  color: red;
+  font-size: 22px;
+}
+
+section .userWallet .wallerItem .name {
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+section .redBag {
+  width: 3.75rem;
+  height: .75rem;
+  background-image: url(/static/images/hb.png);
+  background-size: cover;
+}
+
+section .userList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 3.75rem;
+  height: 2.3rem;
+  background-color: #fff;
+}
+
+section .userList .lists {
+  width: 25%;
+  height: 33%;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section .userList .lists .icon-qianbao {
+  padding-top: 20px;
+}
+
+section .userList .lists .name {
+  font-size: 14px;
+  color: #555;
+  padding: 5px 0;
+}
+
+section .logOut {
+  box-sizing: border-box;
+  width: 3.75rem;
+  height: .46rem;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: .44rem;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 0;
+  line-height: 36px;
+  color: red;
+}
